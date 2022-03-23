@@ -1,8 +1,4 @@
-from mpl_toolkits.axisartist.axislines import AxesZero
-import matplotlib.pyplot as plt
-import numpy as np
 import pandas as pd
-import seaborn as sns
 from urllib3 import Retry
 
 
@@ -20,3 +16,5 @@ def get_max(file_path, vel):
     value_data = pd.read_csv(str(file_path))
     max_value=value_data[vel].max()
     return max_value
+
+print(get_data('C:/Users/tviks/Desktop/GitHub/nauchnaya_praktika/data/1.csv'))
