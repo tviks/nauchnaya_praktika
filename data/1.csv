@@ -1,4 +1,4 @@
-number,current,voltage
+num,cur,vol
 1,0,0.165
 2,0,0.273
 3,0,0.380
